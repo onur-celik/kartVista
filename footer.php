@@ -6,11 +6,4 @@
     {
 	echo $slng[$lngMsg];
     }
-    
-    /*
-    function cevir($hede)
-    {
-	//echo $slng[.$hede.]; 
-    }
-    */
 ?>
