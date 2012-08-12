@@ -1,3 +1,14 @@
+<?php
+    if (isset($_GET['lng']))
+    {
+	$lng = $_GET['lng'];
+	include "languages/" .$lng. ".php";
+    }
+    else
+    {
+	include "languages/tr.php";
+    }
+?> 
 <!DOCTYPE HTML>
 <html>
     <head>
