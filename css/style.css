@@ -1,9 +1,42 @@
 /* appear() function */
 html { opacity : 1; height:100%; }
+.w_100 {width:100%;}
 /* appear() function */
 
 /* STYLE.CSS */
 body 
 {
-    background:url(../img/body_bg.png) fixed repeat-x;
+    background:url(../img/wood.png);
+}
+
+.main
+{
+    background:#fff;
+    box-shadow:0px 0px 20px #000;
+}
+
+.header 
+{
+    padding:20px;
+    border-bottom:1px dashed #cba;
+}
+
+h4.slogan
+{
+    color:#000; 
+    text-shadow:0px 0px 5px #f2f2f2;
+    font-weight:100;
+}
+
+h1.logo
+{
+    //color:#696a6d; 
+    color:#a5a6a8;
+    //text-shadow:-1px -1px 0px #262728;
+    font-weight:100;
+}
+
+.slider
+{
+    height:250px;
 }
