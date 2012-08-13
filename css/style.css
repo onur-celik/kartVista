@@ -3,4 +3,7 @@ html { opacity : 1; height:100%; }
 /* appear() function */
 
 /* STYLE.CSS */
-.hede{}
+body 
+{
+    background:url(../img/body_bg.png) fixed repeat-x;
+}

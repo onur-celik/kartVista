@@ -1,8 +1,14 @@
+	</div> <!-- starts in header -->
     </body>
 </html>
 
 <?php
-    function lngMsg($lngMsg)
+
+    //print_r($slng);
+    
+    //lngMsg('slogan', $slng);
+    
+    function lngMsg($lngMsg, $slng)
     {
 	echo $slng[$lngMsg];
     }
